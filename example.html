@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Slider Example</title>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+		<style>
+			.container
+			{
+				width: 700px;
+				height: 400px;
+
+				border: 1px solid red;
+			}
+
+			.arrow_left, .arrow_right
+			{
+				cursor: pointer;
+			}
+
+			span
+			{
+				font-family: Verdana;
+				font-size: 60px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="slide"> 
+				<img style="max-height: 400px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+			</div>
+
+			<div class="slide"> 
+				<span>Or you can put text, why not ? </span>
+			</div>
+
+			<div class="slide">
+				<iframe id="ytplayer" type="text/html" width="504" height="283" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+
+				<span>Or videos, why not ? </span>
+			</div>
+		</div>
+
+		<img src="left.png" class="arrow_left">
+		<img src="right.png" class="arrow_right">
+
+		<script type="text/javascript" src="sjslider.js"></script>
+	</body>
+</html>
